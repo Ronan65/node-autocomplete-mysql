@@ -1,0 +1,36 @@
+body {
+    padding: 0;
+    margin: 100px 600px;
+    vertical-align: middle;
+    font-family: Tahoma;
+    font-size: 16px;
+}
+#logo {
+    height: 75px;
+    width: 200px;
+    margin-bottom: 5px;
+    background-image: url(/images/Roorle.png);
+}
+
+#search {
+    border: 1px solid #808080;
+    width: 200px;
+}
+
+#results {
+    display: none;
+    width: 200px;
+    text-align: left;
+    border: 1px solid #808080;
+}
+
+#results p {
+    margin: 0;
+    padding: 0; 
+    padding-left: 1px;
+}
+
+#results p:hover {
+    color: #fff;
+    background-color: #808080;
+}

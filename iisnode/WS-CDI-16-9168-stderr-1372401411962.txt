@@ -1,0 +1,38 @@
+ReferenceError: C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\views\index.ejs:12
+    10|         <input id="search" type="text" autocomplete="off"/>
+    11|         <div id="results">
+ >> 12|         <% for (var i=0, c=resultat.length; i < c; i++) {%>
+    13|             <p><%= resultat[i]%></p>
+    14|         <%}%> 
+    15|         </div>
+
+resultat is not defined
+    at eval (eval at <anonymous> (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:310)
+    at eval (eval at <anonymous> (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:554)
+    at C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\ejs\lib\ejs.js:249:15
+    at Object.exports.render (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\ejs\lib\ejs.js:287:13)
+    at View.exports.renderFile [as engine] (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\ejs\lib\ejs.js:317:20)
+    at View.render (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\express\lib\application.js:505:10)
+    at ServerResponse.res.render (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\express\lib\response.js:756:7)
+    at C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\server.js:6:6
+    at callbacks (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\express\lib\router\index.js:161:37)
+ReferenceError: C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\views\index.ejs:12
+    10|         <input id="search" type="text" autocomplete="off"/>
+    11|         <div id="results">
+ >> 12|         <% for (var i=0, c=resultat.length; i < c; i++) {%>
+    13|             <p><%= resultat[i]%></p>
+    14|         <%}%> 
+    15|         </div>
+
+resultat is not defined
+    at eval (eval at <anonymous> (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:310)
+    at eval (eval at <anonymous> (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:554)
+    at C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\ejs\lib\ejs.js:249:15
+    at Object.exports.render (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\ejs\lib\ejs.js:287:13)
+    at View.exports.renderFile [as engine] (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\ejs\lib\ejs.js:317:20)
+    at View.render (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\express\lib\view.js:76:8)
+    at Function.app.render (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\express\lib\application.js:505:10)
+    at ServerResponse.res.render (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\express\lib\response.js:756:7)
+    at C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\server.js:6:6
+    at callbacks (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\express\lib\router\index.js:161:37)

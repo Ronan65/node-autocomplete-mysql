@@ -1,0 +1,4 @@
+Connecté à la base !!
+Id: 1
+identifiant: admin
+Mot de passe: admin

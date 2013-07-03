@@ -1,0 +1,23 @@
+TypeError: Cannot read property '0' of undefined
+    at connection.query.i (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\server.js:31:23)
+    at callbacks (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\express\lib\router\index.js:161:37)
+    at param (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\express\lib\router\index.js:135:11)
+    at pass (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\express\lib\router\index.js:142:5)
+    at Router._dispatch (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\express\lib\router\index.js:170:5)
+    at Object.router (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\express\lib\router\index.js:33:10)
+    at next (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\express\node_modules\connect\lib\proto.js:190:15)
+    at Object.cookieParser [as handle] (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\express\node_modules\connect\lib\middleware\cookieParser.js:60:5)
+    at next (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\express\node_modules\connect\lib\proto.js:190:15)
+    at Object.handle (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\express\node_modules\connect\lib\middleware\static.js:55:61)
+Application has thrown an uncaught exception and is terminated:
+TypeError: Cannot set property 'push' of undefined
+    at Query._callback (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\server.js:91:33)
+    at Query.Sequence.end (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\mysql\lib\protocol\sequences\Sequence.js:66:24)
+    at Query._handleFinalResultPacket (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\mysql\lib\protocol\sequences\Query.js:143:8)
+    at Query.EofPacket (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\mysql\lib\protocol\sequences\Query.js:127:8)
+    at Protocol._parsePacket (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\mysql\lib\protocol\Protocol.js:172:24)
+    at Parser.write (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\mysql\lib\protocol\Parser.js:62:12)
+    at Protocol.write (C:\Users\U-CDI-16\Documents\My Web Sites\Site vide\node_modules\mysql\lib\protocol\Protocol.js:37:16)
+    at Socket.ondata (stream.js:51:26)
+    at Socket.EventEmitter.emit (events.js:117:20)
+    at Socket.<anonymous> (_stream_readable.js:736:14)

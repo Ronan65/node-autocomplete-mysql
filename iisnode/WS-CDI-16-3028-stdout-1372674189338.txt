@@ -1,0 +1,4 @@
+Connecté à la base !!undefined
+GetData Error: Cannot enqueue Query after invoking quit.
+GetData Error: Cannot enqueue Query after invoking quit.
+GetData Error: Cannot enqueue Query after invoking quit.
