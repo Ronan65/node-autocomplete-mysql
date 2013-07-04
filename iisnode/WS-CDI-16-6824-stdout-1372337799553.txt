@@ -1,6 +1,0 @@
-2 : alex
-Connecté à la base !!alex
-Id: 1
-identifiant: admin
-Mot de passe: admin
-1 : admin

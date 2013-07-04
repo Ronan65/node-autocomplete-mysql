@@ -1,2 +1,0 @@
-parametre recut : d
-parametre recut : dr

@@ -1,2 +1,0 @@
-GetData Error: connect ECONNREFUSED
-GetData Error: Cannot enqueue Query after invoking quit.
