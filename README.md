@@ -1,0 +1,1 @@
+This an app to autocomplete french departements. Based on node.js server with a mysql base and using JQuery AJAX.
